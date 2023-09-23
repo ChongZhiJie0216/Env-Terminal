@@ -5,7 +5,9 @@
 # Requestment
 
 [Oh My Posh](https://ohmyposh.dev/)
+
 [clink](https://github.com/chrisant996/clink)
+
 [Hack Nerd Font](https://www.nerdfonts.com/)
 
 # Location
