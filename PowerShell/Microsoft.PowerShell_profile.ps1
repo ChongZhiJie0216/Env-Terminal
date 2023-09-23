@@ -1,3 +1,2 @@
 Import-Module -Name Terminal-Icons
-# oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\blueish.omp.json" | Invoke-Expression
-oh-my-posh prompt init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
+oh-my-posh prompt init pwsh --config "https://raw.githubusercontent.com/ChongZhiJie0216/Env-Terminal/main/blueish.omp.json" | Invoke-Expression

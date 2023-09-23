@@ -1,2 +1,1 @@
--- load(io.popen('oh-my-posh init cmd --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/blueish.omp.json'):read("*a"))()
-load(io.popen('oh-my-posh init cmd --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/blueish.omp.json'):read("*a"))()
+load(io.popen('oh-my-posh init cmd --config https://raw.githubusercontent.com/ChongZhiJie0216/Env-Terminal/main/blueish.omp.json'):read("*a"))()
