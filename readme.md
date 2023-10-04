@@ -16,6 +16,7 @@
 | :-----------: | :--------------: | :--------------------------------------------: | :-----------------------------: |
 |  PowerShell   |    Oh-My-Posh    | `C:\Users\%username%\AppData\Local\oh-my-posh` | `C:\Users\%username%\Documents` |
 | Command Promt | Oh-My-Posh,clink |   `C:\Users\%username%\AppData\Local\clink`    | Same with **`Themes Location`** |
+|     Bash      |    Oh-My-Posh    |                      `-`                       |            `.bashrc`            |
 
 # Oh-My-Posh Addions
 
