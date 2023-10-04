@@ -49,6 +49,14 @@
           "template": " \ue5ff {{ .Path }} "
         },
         {
+          "type": "root",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "#ff6682",
+          "foreground": "#193549",
+          "template": " # Administrator "
+        },
+        {
           "type": "git",
           "style": "powerline",
           "powerline_symbol": "",
@@ -139,14 +147,7 @@
             "always_enabled": true
           }
         },
-        {
-          "type": "root",
-          "style": "powerline",
-          "powerline_symbol": "",
-          "background": "#ff6682",
-          "foreground": "#193549",
-          "template": " # "
-        },
+
         {
           "type": "kubectl",
           "style": "powerline",
