@@ -52,9 +52,9 @@
           "type": "root",
           "style": "powerline",
           "powerline_symbol": "",
-          "background": "#ff6682",
-          "foreground": "#193549",
-          "template": " # Administrator "
+          "background": "#f41818",
+          "foreground": "#ffffff",
+          "template": "  "
         },
         {
           "type": "git",
@@ -129,9 +129,9 @@
           "powerline_symbol": "",
           "background": "#f1fa8c",
           "foreground": "#282a36",
-          "template": " \udb80\udd09 {{ .CurrentDate | date .Format }} ",
+          "template": " \udb80\udd09 {{ .CurrentDate | date .Format }}",
           "properties": {
-            "time_format": "15:04:05"
+            "time_format": "02/01/2006 3:04 PM"
           }
         },
         {
