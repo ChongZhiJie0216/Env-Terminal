@@ -46,7 +46,7 @@
           "properties": {
             "style": "folder"
           },
-          "template": "\ue5ff {{ .Path }} "
+          "template": " \ue5ff {{ .Path }} "
         },
         {
           "type": "git",
@@ -100,12 +100,20 @@
           "powerline_symbol": "",
           "background": "#50fa7b",
           "foreground": "#282a36",
-          "template": "\ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
+          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
           "properties": {
             "display_mode": "environment",
             "fetch_virtual_env": true,
             "home_enabled": true
           }
+        },
+        {
+          "type": "docker",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#000000",
+          "background": "#0B59E7",
+          "template": "  {{ .Context }} "
         },
         {
           "type": "time",
@@ -135,9 +143,9 @@
           "type": "root",
           "style": "powerline",
           "powerline_symbol": "",
-          "background": "#ffff66",
+          "background": "#ff6682",
           "foreground": "#193549",
-          "template": "  "
+          "template": " # "
         },
         {
           "type": "kubectl",
