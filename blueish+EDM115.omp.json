@@ -113,7 +113,7 @@
           "powerline_symbol": "",
           "background": "#f1fa8c",
           "foreground": "#282a36",
-          "template": " \udb80\udd09 {{ .CurrentDate | date .Format }}",
+          "template": " \udb80\udd09 {{ .CurrentDate | date .Format }} ",
           "properties": {
             "time_format": "15:04:05"
           }
@@ -124,7 +124,7 @@
           "trailing_diamond": "",
           "background": "#fa8cfa",
           "foreground": "#282a36",
-          "template": "\ueba2 {{ .FormattedMs }} ",
+          "template": " \ueba2 {{ .FormattedMs }} ",
           "properties": {
             "threshold": 500,
             "style": "austin",
