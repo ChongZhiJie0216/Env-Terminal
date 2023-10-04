@@ -92,7 +92,7 @@
           "powerline_symbol": "",
           "background": "#50fa7b",
           "foreground": "#282a36",
-          "template": "  \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
+          "template": "\ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
           "properties": {
             "display_mode": "environment",
             "fetch_virtual_env": true,
