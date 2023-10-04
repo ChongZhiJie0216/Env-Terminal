@@ -27,8 +27,8 @@
 
 # About Themes
 
-|         Theme         |                        Owner                        |                                          GitHub                                           |                                              Notes                                              |
+|         Theme         |                        Owner                        |                                       Themes GitHub                                       |                                              Notes                                              |
 | :-------------------: | :-------------------------------------------------: | :---------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: |
 |        blueish        | [JanDeDobbeleer](https://github.com/JanDeDobbeleer) | [blueish](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/blueish.omp.json) |                                        Nothing Changesl                                         |
 | EDM115&EDM115-newline |         [EDM115](https://github.com/EDM115)         |           [EDM115](https://github.com/EDM115/EDM115-ohmyposh-theme/tree/master)           |                                         Nothing Changes                                         |
-|    blueish+EDM115     |                    Modify by ME                     |                                          It's ME                                          | Just use a bluish color and add support for Anaconda in the CMD by using the EDM115 environment |
+|    blueish+EDM115     |                    Modify by ME                     |                                     This Repositories                                     | Just use a bluish color and add support for Anaconda in the CMD by using the EDM115 environment |
