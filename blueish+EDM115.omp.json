@@ -44,9 +44,9 @@
           "background": "#14c2dd",
           "foreground": "#193549",
           "properties": {
-            "style": "full"
+            "style": "folder"
           },
-          "template": "  {{ .Path }} "
+          "template": "\ue5ff {{ .Path }} "
         },
         {
           "type": "git",
