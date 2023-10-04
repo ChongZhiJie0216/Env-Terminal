@@ -1,0 +1,131 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "type": "prompt",
+      "segments": [
+        {
+          "type": "session",
+          "style": "diamond",
+          "leading_diamond": "",
+          "template": "{{ .UserName }}",
+          "background": "#282a36",
+          "foreground": "#f8f8f2"
+        },
+        {
+          "type": "root",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "template": "󱐋",
+          "background": "#282a36",
+          "foreground": "#ff5555"
+        },
+        {
+          "type": "os",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "template": "{{ .Icon }}  ",
+          "background": "#282a36",
+          "foreground": "#f8f8f2"
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "#bd93f9",
+          "foreground": "#282a36",
+          "template": "  {{ .Path }} ",
+          "properties": {
+            "style": "full"
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "#ffb86c",
+          "foreground": "#282a36",
+          "template": "  ({{ url .UpstreamIcon .UpstreamURL }} {{ .HEAD }}){{ if gt .Ahead 0 }}<#50fa7b> +{{ .Ahead }}</>{{ end }}{{ if gt .Behind 0 }}<#ff5555> -{{ .Behind }}</>{{ end }}{{ if .Working.Changed }}<#f8f8f2>  {{ .Working.String }}</>{{ end }}{{ if .Staging.Changed }}<#f8f8f2>  {{ .Staging.String }}</>{{ end }} ",
+          "properties": {
+            "branch_icon": "",
+            "fetch_status": true,
+            "fetch_upstream_icon": true,
+            "display_changing_color": true
+          }
+        },
+        {
+          "type": "node",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "template": "  {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
+          "background": "#50fa7b",
+          "foreground": "#282a36"
+        },
+        {
+          "type": "npm",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "template": "   {{ .Full }} ",
+          "background": "#ff5555",
+          "foreground": "#282a36"
+        },
+        {
+          "type": "java",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "template": "  {{ .Full }} ",
+          "background": "#ff79c6",
+          "foreground": "#282a36"
+        },
+        {
+          "type": "php",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "template": "  {{ .Full }} ",
+          "background": "#6272a4",
+          "foreground": "#282a36"
+        },
+        {
+          "type": "python",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "#50fa7b",
+          "foreground": "#282a36",
+          "template": "  \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
+          "properties": {
+            "display_mode": "environment",
+            "fetch_virtual_env": true,
+            "home_enabled": true
+          }
+        },
+        {
+          "type": "time",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "#f1fa8c",
+          "foreground": "#282a36",
+          "template": " 󰄉 {{ .CurrentDate | date .Format }} •",
+          "properties": {
+            "time_format": "15:04:05"
+          }
+        },
+        {
+          "type": "executiontime",
+          "style": "diamond",
+          "trailing_diamond": "",
+          "background": "#f1fa8c",
+          "foreground": "#282a36",
+          "template": " {{ .FormattedMs }} ",
+          "properties": {
+            "threshold": 500,
+            "style": "austin",
+            "always_enabled": true
+          }
+        }
+      ]
+    }
+  ],
+  "final_space": true,
+  "version": 2
+}
